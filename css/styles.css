@@ -63,7 +63,8 @@ body{
     background-color:var(--akcent-color);
     color: var(--only-white);
     border: none;
-    }
+    font-family: roboto;
+}
 .order:hover, .order:focus{
     background-color:var(--button-bacgraund);
     color: var(--akcent-color);
@@ -86,10 +87,7 @@ body{
 .section-list{
     list-style: none;
     
-    }
-.projects{
-    text-decoration: none;
-    }
+ }
 
 .section-title{
     font-weight: 700;
@@ -117,9 +115,8 @@ body{
     letter-spacing: 0.02em;
     color: var(--button-border)
 }
-
-
 .button-filter{
+    font-family: roboto;
     cursor: pointer;
     background: var(--button-bacgraund);
     border: 1px solid var(--button-border);
@@ -138,3 +135,4 @@ body{
     background: var(--akcent-color);
     color: var(--only-white);
 }
+
