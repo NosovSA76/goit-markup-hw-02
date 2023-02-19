@@ -11,28 +11,32 @@
 
     }
 
+
+/* all pages */
 body{
     font-family: "Roboto", sans-serif;
     color:var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
-       
 }
 
 
 /* Header */
+
 .logo{
     cursor: pointer;
     font-weight: 800;
     font-size: 18px;
     text-decoration: none;
-    line-height: 1.33;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    /* COLOR!!!!! */
-
+    line-height: 1.33;
+    color: var(--akcent-color)
 }
+.logo-end{
+    color: var(--title-text-color)
+}   
 .nav{
     list-style: none;
 }
@@ -53,12 +57,40 @@ body{
     font-style: normal;
     color: var(--primary-text-color);
     text-decoration: none;
-    }
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
 .address .link:hover, .address .link:focus{
     color: var(--akcent-color);
 }
+/* Header end */
 
-/* main */
+
+/* Footer */
+
+.footer{
+    background-color:var(--title-text-color);
+}
+.logo-footer{
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    color: var(--akcent-color);
+}
+.logo-footer-end{
+    color: var(--button-bacgraund);
+}
+.footer-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--button-border)
+}
+
+/* Studio */
 .hero{
     background-color:var(--title-text-color);
 }
@@ -95,6 +127,7 @@ body{
     line-height: 1.07;
     color: var(--only-white);
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .section-list{
@@ -130,34 +163,19 @@ body{
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
-/* Footer */
 
-.footer{
-    background-color:var(--title-text-color);
-}
-.logo-footer{
-    font-weight: 800;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-}
-.footer-text{
-    letter-spacing: 0.02em;
-    color: var(--button-border)
-}
+/* portfolio */
 .button-filter{
-    font-family: roboto;
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     background: var(--button-bacgraund);
     border: 1px solid var(--button-border);
     border-radius: 4px;
     font-style: normal;
     font-weight: 500;
-    display: flex;
-    align-items: center;
     text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--akcent-color);
     padding:  12px 24px 12px 24px;
