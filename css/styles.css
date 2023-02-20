@@ -45,7 +45,7 @@ body{
     color: var(--title-text-color);
     text-decoration: none;
     letter-spacing: 0.02em;
-    line-height: 1,5;
+    line-height: 1.5;
 }
 .nav .link:hover, .nav .link:focus{
     color: var(--akcent-color);
@@ -72,6 +72,7 @@ body{
     background-color:var(--title-text-color);
 }
 .logo-footer{
+    font-family: "Raleway", sans-serif;
     cursor: pointer;
     font-weight: 800;
     font-size: 18px;
@@ -87,7 +88,8 @@ body{
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--button-border)
+    color: var(--button-border);
+   
 }
 
 /* Studio */
@@ -131,8 +133,11 @@ body{
 }
 
 .section-list{
-    list-style: none;
-    
+    list-style: none; 
+ }
+ 
+ .team-cards{
+    background-color: var(--only-white);
  }
 
 .section-title{
@@ -149,7 +154,7 @@ body{
    color: var(--title-text-color);
    letter-spacing: 0.02em;
    line-height: 1.2;
-   background-color: var(--only-white);
+   
 }
 .secion-text{
     line-height: 1.5;
@@ -159,7 +164,6 @@ body{
     background-color:var(--button-bacgraund);
 }
 .team-text{
-    background-color: var(--only-white);
     letter-spacing: 0.02em;
     line-height: 1.5;
 }
@@ -178,8 +182,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--akcent-color);
-    padding:  12px 24px 12px 24px;
-}
+  }
 
 .button-filter:hover, .button-filter:focus{
     background: var(--akcent-color);
